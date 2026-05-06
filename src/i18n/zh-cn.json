@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "NetFresh"
+  },
+  "stats": {
+    "total": "总计",
+    "active": "活跃",
+    "stale": "残留",
+    "custom": "自定义"
+  },
+  "status": {
+    "active": "活跃",
+    "stale": "残留",
+    "offline": "离线"
+  },
+  "category": {
+    "public": "公用",
+    "private": "专用",
+    "domain": "域",
+    "unknown": "未知"
+  },
+  "table": {
+    "name": "名称",
+    "status": "状态",
+    "category": "类别",
+    "adapter": "适配器",
+    "ip": "IP 地址",
+    "empty": "没有找到网络配置文件"
+  },
+  "action": {
+    "cleanup": "一键清理 + 重编号",
+    "confirmTitle": "确认执行清理与重编号？",
+    "confirmDesc": "将删除 {count} 个非活跃的残留配置，并将活跃网络按顺序重新编号为 网络、网络 2、网络 3...",
+    "confirmBackup": "操作前会自动备份注册表到 文档/NetFresh/backups。",
+    "execute": "执行",
+    "cancel": "取消",
+    "staleFound": "发现 {count} 个可清理的残留配置"
+  },
+  "toast": {
+    "loadError": "加载失败: {error}",
+    "backupSuccess": "备份已保存",
+    "backupError": "备份失败: {error}",
+    "cleanupDeleted": "清理了 {count} 个残留配置",
+    "cleanupRenamed": "重编号: {renames}",
+    "cleanupOptimal": "已经是最优状态，无需清理",
+    "cleanupError": "操作失败: {error}",
+    "renameSuccess": "已重命名: {from} → {to}",
+    "renameError": "重命名失败: {error}",
+    "deleteSuccess": "已删除: {name}",
+    "deleteError": "删除失败: {error}"
+  },
+  "update": {
+    "checkUpdate": "检查更新",
+    "checking": "检查中...",
+    "downloading": "下载 v{version} 中...",
+    "restartToUpdate": "重启以更新",
+    "upToDate": "已是最新",
+    "updateError": "更新失败"
+  },
+  "backup": {
+    "title": "备份与还原",
+    "description": "备份保存在 文档/NetFresh/backups 目录。",
+    "createNew": "创建备份",
+    "restore": "还原",
+    "confirmTitle": "确认还原？",
+    "confirmDesc": "将还原到 {name} 的状态，当前配置将被覆盖。",
+    "restoreSuccess": "已还原到 {name}",
+    "restoreError": "还原失败: {error}",
+    "deleteTitle": "删除备份？",
+    "deleteDesc": "将永久删除 {name} 的备份。",
+    "deleteSuccess": "备份已删除",
+    "deleteError": "删除失败: {error}",
+    "noMeta": "无配置信息",
+    "empty": "暂无备份记录"
+  },
+  "tooltip": {
+    "refresh": "刷新",
+    "backup": "备份注册表"
+  },
+  "version": "v{version}",
+  "delete": {
+    "title": "确认删除配置？",
+    "desc": "将删除网络配置「{name}」及其关联签名，此操作不可撤销。",
+    "confirm": "删除",
+    "cancel": "取消"
+  }
+}
