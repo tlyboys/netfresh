@@ -2,6 +2,11 @@
 
 🛜 A Windows desktop tool for cleaning up stale network profiles and renumbering them
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/banner-dark.png">
+  <img alt="NetFresh banner" src="img/banner-light.png">
+</picture>
+
 | Category  | Stack                                          |
 | --------- | ---------------------------------------------- |
 | Framework | React 19 + TypeScript                          |

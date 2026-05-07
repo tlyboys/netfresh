@@ -2,6 +2,11 @@
 
 🛜 Windows 网络配置文件清理与重编号工具
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/banner-dark-zh.png">
+  <img alt="NetFresh banner" src="img/banner-light-zh.png">
+</picture>
+
 | 类别   | 技术栈                                         |
 | ------ | ---------------------------------------------- |
 | 框架   | React 19 + TypeScript                          |
